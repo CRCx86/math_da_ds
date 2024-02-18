@@ -18,12 +18,12 @@ def show_image(img):
     plt.imshow(img, cmap='gray')
     plt.xticks([])
     plt.yticks([])
-    plt.show()
 
 
-# show_image(frog)
+show_image(frog)
 
 # Ваш код
+
 U, s, VT = np.linalg.svd(frog, full_matrices=False)
 S = np.diag(s)
 
@@ -35,7 +35,5 @@ VT = VT[0:k, :]
 
 X_approx = U @ S @ VT
 
-size = (len(U[0]) * len(U) + len(s) + len(VT[0]) * len(VT)) * 8 / 1024 / 1024
-print(size)
-
-show_image(X_approx)
+mse = np.linalg.norm(frog - X_approx) / frog.shape[0] / frog.shape[1]
+print(mse)

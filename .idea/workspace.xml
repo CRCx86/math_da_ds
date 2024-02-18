@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2a4ba80-69a8-471d-b0b0-edc0f6c02825" name="Changes" comment="- chore!: добавлены задачи по приложениям ЛА в ДС">
-      <change afterPath="$PROJECT_DIR$/application_LA_in_da/svd_squeze_matrix/examples/example_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application_LA_in_da/svd_squeze_matrix/exercises/exercise_1.py" afterDir="false" />
+    <list default="true" id="c2a4ba80-69a8-471d-b0b0-edc0f6c02825" name="Changes" comment="- chore!: gitignore">
+      <change afterPath="$PROJECT_DIR$/application_LA_in_da/svd_squeze_matrix/exercises/exercise_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application_LA_in_da/svd_squeze_matrix/exercises/exercise_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/application_LA_in_da/svd_squeze_matrix/exercises/exercise_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +48,12 @@
     &quot;Python.exercise_3.executor&quot;: &quot;Run&quot;,
     &quot;Python.exercise_4.executor&quot;: &quot;Run&quot;,
     &quot;Python.exmple_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_0.executor&quot;: &quot;Run&quot;,
     &quot;Python.task_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.task_2.executor&quot;: &quot;Run&quot;,
     &quot;Python.task_3.executor&quot;: &quot;Run&quot;,
     &quot;Python.task_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_6.executor&quot;: &quot;Run&quot;,
     &quot;Python.test_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.test_2.executor&quot;: &quot;Run&quot;,
     &quot;Python.test_3.executor&quot;: &quot;Run&quot;,
@@ -59,17 +61,42 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application_LA_in_da/singular_decomposition/tasks" />
+      <recent name="$PROJECT_DIR$/application_LA_in_da/eigenvalues_and_vectors/exercises" />
       <recent name="D:\python\math_da_ds\pythonProject\application_LA_in_da\tests\chapter_1" />
       <recent name="D:\python\math_da_ds\pythonProject\application_LA_in_da\linear_regression\exercises" />
       <recent name="D:\python\math_da_ds\pythonProject\application_LA_in_da\systems_of_linear_equations\exercises" />
-      <recent name="D:\python\math_da_ds\pythonProject\application_LA_in_da\systems_of_linear_equations\examples" />
-      <recent name="D:\python\math_da_ds\pythonProject\application_LA_in_da\systems_of_linear_equations\tasks" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="exercise_1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application_LA_in_da/svd_squeze_matrix/exercises" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application_LA_in_da/svd_squeze_matrix/exercises/exercise_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

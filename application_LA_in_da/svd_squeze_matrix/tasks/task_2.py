@@ -5,12 +5,12 @@ from PIL import Image, ImageOps
 import requests
 
 # Ссылка на картинку.
-url = "https://code.s3.yandex.net/math-adult/explanations/linal/1/svd/frog.jpeg"
+url = "https://code.s3.yandex.net/Math/images/carpet.jpeg"
 
 # Скачивание и сохранение картинки в переменную.
 im = ImageOps.grayscale(Image.open(requests.get(url, stream=True).raw))
 # Превращение картинки в NumPy-массив.
-frog = np.array(im).astype(float)
+carpet = np.array(im).astype(float)
 
 
 def show_image(img):
@@ -21,13 +21,13 @@ def show_image(img):
     plt.show()
 
 
-# show_image(frog)
+show_image(carpet)
 
 # Ваш код
-U, s, VT = np.linalg.svd(frog, full_matrices=False)
+U, s, VT = np.linalg.svd(carpet, full_matrices=False)
 S = np.diag(s)
 
-k = 227
+k = 10
 
 U = U[:, 0:k]
 S = S[0:k, 0:k]
@@ -35,7 +35,5 @@ VT = VT[0:k, :]
 
 X_approx = U @ S @ VT
 
-size = (len(U[0]) * len(U) + len(s) + len(VT[0]) * len(VT)) * 8 / 1024 / 1024
-print(size)
-
-show_image(X_approx)
+mse = np.linalg.norm(carpet - X_approx) / carpet.shape[0] / carpet.shape[1]
+print(mse)
