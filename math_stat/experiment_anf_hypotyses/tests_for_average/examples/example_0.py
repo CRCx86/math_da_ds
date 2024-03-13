@@ -39,6 +39,9 @@ n = 16
 
 z = (x - mu) / (sigma / np.sqrt(n))
 
-X = stats.norm(loc=0, scale=1)
-result = 1-X.cdf(x=z)
+# X = stats.norm(loc=0, scale=1)
+# result = 1-X.cdf(x=z)
+
+X = stats.norm(loc=mu, scale=sigma/np.sqrt(n))
+result = 1-X.cdf(x=x)
 print(result)
